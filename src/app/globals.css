@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/fonts/Mona-Sans.woff2") format("woff2");
+  font-display: swap;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mona Sans";
+}
