@@ -15,8 +15,8 @@ const projects = [
     description:
       "An online platform where users explore menus from restaurants, customize meals, and order for pickup or delivery.",
     tech: ["React", "CSS", "JS", "Material UI"],
-    image: "/assets/project/bounty.png",
     github: "https://github.com/laukik-24/BountyBites",
+    image: "/assets/project/bounty.png",
     link: "https://bounty-bites.vercel.app/",
   },
 
