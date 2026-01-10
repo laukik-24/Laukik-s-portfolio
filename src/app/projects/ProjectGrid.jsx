@@ -7,7 +7,7 @@ const projects = [
       "A villa booking platform similar to Airbnb allowing users to browse, compare, and book villas.",
     tech: ["HTML", "CSS", "Node.js", "Express", "MongoDB"],
     image: "/assets/project/travel.png",
-    github: "https://github.com/yourusername/travelbroad",
+    github: "https://github.com/laukik-24/TravelBroad",
     link: "https://travelbroad.onrender.com/listings",
   },
   {
@@ -16,7 +16,7 @@ const projects = [
       "An online platform where users explore menus from restaurants, customize meals, and order for pickup or delivery.",
     tech: ["React", "CSS", "JS", "Material UI"],
     image: "/assets/project/bounty.png",
-    github: "https://github.com/yourusername/bountybites",
+    github: "https://github.com/laukik-24/BountyBites",
     link: "https://bounty-bites.vercel.app/",
   },
 
