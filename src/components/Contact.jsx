@@ -2,6 +2,8 @@
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaRegEnvelope } from "react-icons/fa6";
+import { FaRegPaperPlane } from "react-icons/fa";
 
 export default function Contact() {
   const onSubmit = async (event) => {
@@ -68,7 +70,7 @@ export default function Contact() {
           </p>
 
           <div className="mt-12 inline-flex items-center gap-4 border border-[#fbbb7a] rounded-xl px-8 py-4 w-max">
-            <i className="fa-regular fa-envelope text-3xl" />
+            <FaRegEnvelope className="text-3xl" />
             <div>
               <p className="text-sm">Mail me at</p>
               <p className="font-black text-lg">laukiklanje24@gmail.com</p>
@@ -119,9 +121,9 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="mt-4 self-start px-8 py-4 border border-[#fbbb7a] rounded-xl font-bold transition hover:bg-[#f9a24b] hover:text-black">
+              className=" flex mt-4 self-start px-8 py-4 border border-[#fbbb7a] rounded-xl font-bold transition hover:bg-[#f9a24b] hover:text-black">
               Submit Form&nbsp;
-              <i className="fa-solid fa-paper-plane" />
+              <FaRegPaperPlane className="ml-2 mt-1" />
             </button>
           </form>
         </div>

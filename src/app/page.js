@@ -12,13 +12,6 @@ import GithubCalendarComponent from "@/components/GithubCalendarComponent";
 
 export default function Home() {
   const [menu, setMenu] = useState(false);
-  const [dark, setDark] = useState(true);
-
-  useEffect(() => {
-    document.body.className = dark
-      ? "bg-black text-gray-300"
-      : "bg-white text-gray-800";
-  }, [dark]);
 
   return (
     <>
@@ -33,7 +26,7 @@ export default function Home() {
         <Skills />
         <Contact />
       </main>
-      <Footer dark={dark} setDark={setDark} />
+      <Footer />
     </>
   );
 }

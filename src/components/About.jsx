@@ -1,5 +1,6 @@
 import Image from "next/image";
 import avatar from "../../public/assets/avatar.png";
+import { FaDownload } from "react-icons/fa6";
 
 export default function About() {
   return (
@@ -41,11 +42,11 @@ export default function About() {
 
           <div className="mt-8">
             <a
-              href="https://drive.google.com/file/d/14VIHU0g2ZP6IPYvz6jzESaneP0TwU2kr/view?usp=sharing"
+              href="https://drive.google.com/file/d/11BrYUSQL45VZXkY2_wlR6pUV7kB3nr9m/view?usp=drivesdk"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-xl border border-[#ac8e23] bg-black text-white dark:bg-white dark:text-black px-8 py-4 font-bold transition-transform duration-300 hover:scale-[1.04]">
-              <i className="fa-solid fa-cloud-arrow-down text-lg" />
+              <FaDownload />
               Resume
             </a>
           </div>
