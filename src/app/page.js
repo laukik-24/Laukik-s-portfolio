@@ -14,7 +14,7 @@ export default function Home() {
   const [menu, setMenu] = useState(false);
 
   return (
-    <>
+    <div className="bg-black text-gray-300">
       <Navbar menu={menu} setMenu={setMenu} />
       <Hero />
       <main className="relative z-10 bg-black rounded-t-[80px] -mt-20 pt-32 transition-all duration-700 ease-out">
@@ -27,6 +27,6 @@ export default function Home() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
