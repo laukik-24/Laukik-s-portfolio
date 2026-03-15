@@ -42,7 +42,7 @@ export default function About() {
 
           <div className="mt-8">
             <a
-              href="https://drive.google.com/file/d/11BrYUSQL45VZXkY2_wlR6pUV7kB3nr9m/view?usp=drivesdk"
+              href="/cv"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-xl border border-[#ac8e23] bg-black text-white dark:bg-white dark:text-black px-8 py-4 font-bold transition-transform duration-300 hover:scale-[1.04]">

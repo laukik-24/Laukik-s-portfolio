@@ -29,10 +29,10 @@ export default function Navbar({ menu, setMenu }) {
 
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "About", href: "#about" },
+    { label: "About", href: "/#about" },
     { label: "My Work", href: "/projects" },
-    { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
+    { label: "Skills", href: "/#skills" },
+    { label: "Contact", href: "/#contact" },
   ];
 
   return (
